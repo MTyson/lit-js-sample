@@ -88,7 +88,7 @@ const getRemoteHobbits = async () => {
   const response = await fetch("https://the-one-api.dev/v2/character?race=Hobbit",
     {
       "headers": {
-        "Authorization":"Bearer RDk2w8DTksWw6Y9yDzwx"
+        "Authorization":"Bearer <YOUR API TOKEN HERE>"
       }
     }
   );
